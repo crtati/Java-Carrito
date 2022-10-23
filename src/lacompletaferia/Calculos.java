@@ -10,10 +10,10 @@ package lacompletaferia;
  * @author Taty
  */
 public interface Calculos  {
-    double precioProductos();
+    double calcularTotal();
+    double descuentoCarne();
+    double descuentoBebestible();
+    double totalDescuentos();
+    double precioFinalProducto();
     double calcularIva();
-    double calcularCarne();
-    double calcularBebestible();
-    double precioFinal();
-    double totalProductos();
 }

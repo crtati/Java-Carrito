@@ -27,8 +27,7 @@ public class LaCompletaFeria {
             }else if (menú == 2){
                 carri.mostrarProducto();
             }else if (menú == 3){
-                String marca = null;
-               carri.eliminarProducto(marca);
+                carri.eliminarProducto();
             }else if (menú == 4){
                 System.out.println("Vuelva pronto");
                 flag = false;
