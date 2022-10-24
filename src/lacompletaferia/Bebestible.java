@@ -31,13 +31,13 @@ public class Bebestible extends Producto {
     //Metodos
     @Override
     public String toString(){
-        return " Marca: "+getMarca() + " | " + "Tipo de animal: "+getLitros() + " | " + "Precio:"
+        return " Marca: "+getMarca() + " | " + "Tamaño: "+getLitros() + " | " + "Precio:"
                 + getPrecio() + " | " + "Categoria: " + getCategoria();
     }
     @Override
     public double totalCompra(){
-        double total = 0;
+        double totalBebestible = 0;
         Carrito car = new Carrito();
-        return total = this.precio*car.contadorBebestibles;
+        return totalBebestible = this.precio*car.contadorBebestibles;
     }
 }

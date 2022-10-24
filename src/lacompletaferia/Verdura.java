@@ -37,13 +37,13 @@ public class Verdura extends Producto {
     //Metodos
     @Override
     public String toString(){
-        return " Marca: "+getMarca() + " | " + "Tipo de animal: "+getColor() + " | " + "Precio:"
+        return " Marca: "+getMarca() + " | " + "Color: "+getColor() + " | " + "Precio:"
                 + getPrecio() + " | " + "Categoria: " + getCategoria();
     }
     @Override
     public double totalCompra(){
-        double total = 0;
+        double totalVerdura = 0;
         Carrito car = new Carrito();
-        return total = this.precio*car.contadorVerduras;
+        return totalVerdura = this.precio*car.contadorVerduras;
     }
 }

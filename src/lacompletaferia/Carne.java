@@ -41,9 +41,9 @@ public class Carne extends Producto {
     }
     @Override
     public double totalCompra(){
-        double total = 0;
+        double totalCarne = 0;
         Carrito car = new Carrito();
-        return total = this.precio*car.contadorCarne;
+        return totalCarne = this.precio*car.contadorCarne;
     }
 
 }
